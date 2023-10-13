@@ -7,22 +7,40 @@
 body {
     width: 100vw;
     height: 100vh;
+    
 }
 input {
     display: none;
 }
 
-button {
-    border: none;
+label p {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 2px solid brown;
+    border-radius: 30%;
     font-size: 30px;
-    background-color: white;
+    background-color: orangered;
+    color: white;
 }
 
 .mod {
-    background-color: lightblue;
-    width: 100%;
+    display: none;
+    width: 0;
     height: 100%;
+    background-color: lightblue;
     position: absolute;
     top: 0;
     left: 0;
+  
+   
 }
+input:checked ~ .mod {
+    display: block;
+    width: 100%;
+}
+
+
+
+
