@@ -17,3 +17,12 @@ button {
     font-size: 30px;
     background-color: white;
 }
+
+.mod {
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
